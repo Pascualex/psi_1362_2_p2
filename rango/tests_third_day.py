@@ -45,5 +45,6 @@ class Chapter6FormTests(TestCase):
 
     def test_python_category_added(self):
         cat = self.get_category('Python')
-        self.client.get(reverse('rango:add_page'))
+        print("wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww", cat)
+        self.client.get(reverse('rango:add_page', kwargs={'category_name_slug':cat.slug} ))
         self.assertIsNotNone(cat)
