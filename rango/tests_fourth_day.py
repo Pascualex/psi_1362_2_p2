@@ -4,7 +4,7 @@
 #sat oct 12: added variable SIGIN and SIGNOUT
 #########################################################################
 # you may modified the following twolines
-SIGNIN=b'Sign In'
+SIGNIN=b'Login'
 SIGNUP=b'Sign Up'
 ###########################
 # Nothing to be modified below this line
