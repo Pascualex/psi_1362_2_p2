@@ -1,7 +1,7 @@
 import os
 os.environ.setdefault(
     'DJANGO_SETTINGS_MODULE',
-    'psi_1362_2_p2.settings'
+    'tango_with_django_project.settings'
 )
 
 import django
