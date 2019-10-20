@@ -35,7 +35,11 @@ SECRET_KEY = 't7h90vato#1rlfco=_1=t=-6t7c-34^zz8ctvmj!^g0nlkw_82'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    u'https://powerful-dusk-84650.herokuapp.com/',
+    u'https://powerful-dusk-84650.herokuapp.com/',
+    u'127.0.0.1'
+]
 
 
 # Application definition
