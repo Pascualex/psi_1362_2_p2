@@ -36,7 +36,7 @@ SECRET_KEY = 't7h90vato#1rlfco=_1=t=-6t7c-34^zz8ctvmj!^g0nlkw_82'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    u'powerful-dusk-84650.herokuapp.com/',
+    u'powerful-dusk-84650.herokuapp.com',
     u'localhost',
     u'127.0.0.1'
 ]
