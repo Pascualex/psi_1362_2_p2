@@ -36,11 +36,10 @@ SECRET_KEY = 't7h90vato#1rlfco=_1=t=-6t7c-34^zz8ctvmj!^g0nlkw_82'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    u'https://powerful-dusk-84650.herokuapp.com/',
-    u'https://powerful-dusk-84650.herokuapp.com/',
+    u'powerful-dusk-84650.herokuapp.com/',
+    u'localhost',
     u'127.0.0.1'
 ]
-
 
 # Application definition
 
@@ -90,8 +89,7 @@ WSGI_APPLICATION = 'tango_with_django_project.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(default= \
-        "postgres://alumnodb:alumnodb@localhost:5432/psi")
+    'default': dj_database_url.config(default="postgres://alumnodb:alumnodb@localhost:5432/psi")
 }
 
 
