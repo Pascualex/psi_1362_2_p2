@@ -95,7 +95,9 @@ if os.getenv('SQLITE', False):
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3')
     }
 else:
-    DATABASES['default'] = dj_database_url.config(default="postgres://alumnodb:alumnodb@localhost:5432/psi")
+    DATABASES['default'] = dj_database_url.config(
+        default="postgres://alumnodb:alumnodb@localhost:5432/psi"
+    )
 
 
 # Password validation
